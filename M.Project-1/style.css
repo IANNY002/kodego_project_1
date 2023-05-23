@@ -1,0 +1,188 @@
+body {
+
+    font-family: 'Outfit',
+        sans-serif;
+    font-family: 'Roboto',
+        sans-serif;
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+    min-height: 100vh;
+}
+
+
+
+.topnav {
+
+    overflow: hidden;
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+
+.topnav a:hover {
+
+    color: yellow;
+}
+
+/ .topnav a.active {
+
+    color: white;
+}
+
+
+.topnav-right {
+    float: right;
+}
+
+
+.topnav b {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav b:hover {
+
+    color: black;
+}
+
+
+.topnav b.active {
+
+    color: white;
+}
+
+
+.topnav-right {
+    float: right;
+}
+
+#secondDiv {
+    color: white;
+}
+
+
+.btn-oblong {
+    border-radius: 20px;
+    padding: 10px 50px;
+    width
+}
+
+.nav-item:hover {
+    background-color: rgb(255, 201, 22);
+}
+
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.bg-black {
+
+    width: 500px;
+    height: 200px;
+}
+
+.social-link {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+}
+
+.title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+}
+
+
+@keyframes color-animation {
+    0% {
+        color: var(--color-1)
+    }
+
+    32% {
+        color: var(--color-1)
+    }
+
+    33% {
+        color: var(--color-2)
+    }
+
+    65% {
+        color: var(--color-2)
+    }
+
+    66% {
+        color: var(--color-3)
+    }
+
+    99% {
+        color: var(--color-3)
+    }
+
+    100% {
+        color: var(--color-1)
+    }
+}
+
+/* Here are just some visual styles. 🖌 */
+
+#team {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 50vh
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 6.5vw;
+    text-transform: uppercase;
+}
