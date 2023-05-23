@@ -4,14 +4,14 @@
 
 body {
     background: #e8cbc0;
-    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
-    background: linear-gradient(to right, #e8cbc0, #636fa4);
+    background: -webkit-linear-gradient(to right, #B799FF, #A0D8B3);
+    background: linear-gradient(to right, #B799FF, #A0D8B3);
     min-height: 100vh;
 }
 
 .card {
     background: #222;
-    border: 1px solid #dd2476;
+    border: 1px solid #140718;
     color: rgba(250, 250, 250, 0.8);
     margin-bottom: 2rem;
 }
@@ -44,21 +44,33 @@ body {
 }
 
 .title-word-1 {
-    --color-1: #DF8453;
-    --color-2: #3D8DAE;
-    --color-3: #E4A9A8;
+    --color-1: #7b6356;
+    --color-2: #d6f66c;
+    --color-3: #891363;
 }
 
 .title-word-2 {
-    --color-1: #DBAD4A;
-    --color-2: #ACCFCB;
-    --color-3: #17494D;
+    --color-1: #c6ff41;
+    --color-2: #ff0000;
+    --color-3: #008e98;
 }
 
 .title-word-3 {
-    --color-1: #ACCFCB;
-    --color-2: #E4A9A8;
-    --color-3: #ACCFCB;
+    --color-1: #4500c4;
+    --color-2: #700f15;
+    --color-3: #f45fae;
+}
+
+.title-word-4 {
+    --color-1: #ff939a;
+    --color-2: #0088ff;
+    --color-3: #7e0b49;
+}
+
+.title-word-5 {
+    --color-1: #5a467f;
+    --color-2: #ac686d;
+    --color-3: #5d3098;
 }
 
 
