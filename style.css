@@ -10,13 +10,11 @@ body {
     min-height: 100vh;
 }
 
-
-
 .topnav {
 
     overflow: hidden;
-}
 
+}
 
 .topnav a {
     float: left;
@@ -34,7 +32,7 @@ body {
     color: yellow;
 }
 
-/ .topnav a.active {
+.topnav a.active {
 
     color: white;
 }
@@ -171,8 +169,6 @@ body {
     }
 }
 
-
-
 #team {
     display: grid;
     place-items: center;
@@ -189,4 +185,5 @@ body {
 
 .accordion-button:hover {
     background-color: gray;
+    border-radius: 15px;
 }
